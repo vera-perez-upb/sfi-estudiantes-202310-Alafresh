@@ -21,7 +21,7 @@ Esta guía proporciona instrucciones detalladas sobre cómo añadir soporte para
 ## Notion de la Clase
 
 Este repositorio también actuará como un puente hacia el Notion de la clase, donde se podrá encontrar información más detallada, recursos adicionales, y documentación específica de cada tema tratado. Es importante revisar regularmente el Notion para estar al tanto de las actualizaciones, nuevos recursos y materiales complementarios que serán de gran ayuda para el desarrollo de los proyectos.
-[NotionDeLaClase](https://silk-motion-e7d.notion.site/Unidad-1-Software-para-sistemas-embebidos-86760026bfac4e339e649191eedab500) link de notion de clase
+[NotionDeLaClase](https://silk-motion-e7d.notion.site/Unidad-1-Software-para-sistemas-embebidos-86760026bfac4e339e649191eedab500)
 
 ## Objetivo
 
