@@ -21,16 +21,10 @@ Esta guía proporciona instrucciones detalladas sobre cómo añadir soporte para
 ## Notion de la Clase
 
 Este repositorio también actuará como un puente hacia el Notion de la clase, donde se podrá encontrar información más detallada, recursos adicionales, y documentación específica de cada tema tratado. Es importante revisar regularmente el Notion para estar al tanto de las actualizaciones, nuevos recursos y materiales complementarios que serán de gran ayuda para el desarrollo de los proyectos.
+[NotionDeLaClase](https://silk-motion-e7d.notion.site/Unidad-1-Software-para-sistemas-embebidos-86760026bfac4e339e649191eedab500) link de notion de clase
 
 ## Objetivo
 
 Nuestro objetivo es crear un ambiente de aprendizaje colaborativo, donde podamos explorar las posibilidades que nos brindan los sistemas físicos interactivos, aprendiendo no solo a programar y configurar nuestros dispositivos, sino también a entender y aplicar los principios detrás de la interacción entre el software y el hardware.
-
-Invitamos a todos los estudiantes y participantes del curso a contribuir al repositorio, compartiendo su código, soluciones a problemas, y cualquier otro recurso que consideren útil para el grupo.
-
----
-
-Este README sirve como punto de partida para nuestro trabajo en clase. A medida que avancemos, se recomienda actualizar este documento para reflejar los cambios, mejoras y nuevos aprendizajes adquiridos durante el curso.
-
 
 [Arduino](https://github.com/Cristian171/Arduino) Trabajo de clase dia 7 de febrero
