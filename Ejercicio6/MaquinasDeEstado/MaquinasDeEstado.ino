@@ -5,17 +5,20 @@ void task1()
     INIT,
     WAIT_TIMEOUT
     };
+    // mantiene el estado actual de la tarea.
   static Task1States task1State = Task1States::INIT;
 
-  // Definición de variables static (conservan su valor entre llamadas a task1)    
+  // Variable que almacena la última vez que se realizó una acción, se usa para controlar el tiempo entre acciones.
   static uint32_t lastTime = 0;
 
-  // Constantes
+  // intervalo de tiempo (en milisegundos) entre acciones, en este caso, 1000 ms o 1 segundo.
   constexpr uint32_t INTERVAL = 1000;
 
-    // MÁQUINA de ESTADOS
+    // maneja los diferentes estados de la tarea.
     switch (task1State)
     {
+      // Se inicializa la comunicacion serial, se actualiza la variable lastime con el tiempo actual
+      // se cambia el estado de wait_timeout y se imprime un mensaje con su estado
       case Task1States::INIT:
       {
         // Acciones:  
@@ -26,6 +29,7 @@ void task1()
         Serial.print("Task1States::WAIT_TIMEOUT**\n**");
         break;
       }
+      // se espera que haya pasado un intervalo de tiempo se actualiza lastTIme y se imprime el estado actual
       case Task1States::WAIT_TIMEOUT:
       {
         uint32_t currentTime = millis();
