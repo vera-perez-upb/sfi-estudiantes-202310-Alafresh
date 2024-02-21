@@ -20,7 +20,6 @@ const unsigned long threeSeconds = 3000;
 void setup() {
   // Iniciar comunicación serial
   Serial.begin(9600);
-  Serial.println("1 segundo");
 }
 
 void loop() {
